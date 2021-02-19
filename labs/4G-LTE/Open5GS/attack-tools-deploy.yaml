@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: attack-tools
+  namespace: open5gs
+spec:
+  selector:
+    matchLabels:
+      app: atk
+  replicas: 2 # tells deployment to run 2 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: atk
+    spec:
+      containers:
+      - name: attack-tools
+        image: adamgreenhill/telecom-attack-tools:latest
+        imagePullPolicy: IfNotPresent
+

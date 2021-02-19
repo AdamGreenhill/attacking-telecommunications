@@ -36,6 +36,7 @@ kubectl apply -f sgw/
 kubectl apply -f pgw/
 kubectl apply -f pcrf/
 kubectl apply -f web-ui/
+kubectl apply -f ./attack-tools-deploy.yaml
 sleep 60
 kubectl -n open5gs get po -o wide
  
