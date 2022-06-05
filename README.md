@@ -4,7 +4,7 @@ The project contains scripts to download and install LTE attack tools and simula
 
 ## Tools
 
-* SigPloit (https://github.com/SigPloiter/SigPloit): a tool that abuses vulnerabilities within the GTP protocol. The tool also can exploit SS7 vulnerabilities found in 2G and 3G networks.
+* SigPloit (https://github.com/SigPloiter/SigPloit): a tool that abuses vulnerabilities within the GTP protocol. The tool also can exploit SS7 vulnerabilities found in 2G and 3G networks. **As of June 2022, the original author has deleted this project. Mirrors exist but please use caution.**
 * gtp_scan (http://www.ernw.de/download/gtp/gtp_scan-0.7.tar.gz): a tool designed to enumerate and scan GTP services in a network.
 * apnbf (http://www.ernw.de/download/apnbf-0.1.tar.gz): a script that can be used to bruteforce access point names (APNs) that can be used to establish sessions in a network.
 * s1ap_enum (https://insinuator.net/2014/06/new-tool-s1ap_enum/): a tool that attempts to bruteforce parameters against a host (such as an MME) and establish an s1ap session.
